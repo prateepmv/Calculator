@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(void)
+{
+int x = 1,
+int y = 2;
+
+  //bitwise AND
+  int result = x & y;
+  printf("%d & %d = %d\n", x, y, result);
+   //bitwise OR
+  int result = x | y;
+  printf("%d | %d = %d\n", x, y, result);
+  //bitwise XOR
+  int result = x ^ y;
+  printf("%d ^ %d = %d\n", x, y, result);
+  //shift left
+  int result = x << 1;
+  printf("Shift left x << 1 = %d\n", result);
+  //shift right
+  int result = x >> 1;
+   printf("Shift left x >> 1 = %d\n", result);
+  return 0;
+}
